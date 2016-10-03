@@ -32,6 +32,7 @@ def in_words(int)
       3 => "Three",
       2 => "Two",
       1 => "One"
+    "-" => "Negative"
     }
   str = ""
   numbers_to_name.each do |num, name|
